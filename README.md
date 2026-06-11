@@ -9,8 +9,7 @@
 
 **SAE AeroTHON 2026 · Rotorcraft Systems Challenge (UAS)**
 
-Mission code that flies on a Raspberry Pi 5, and a black-glass GCS app to
-test, refine and fine-tune every pipeline before it does.
+Built for the Raspberry Pi 5 (8GB), pending flight test information. 
 
 </div>
 
@@ -20,7 +19,7 @@ test, refine and fine-tune every pipeline before it does.
 
 ```
 aeroxperts/
-├── onboard/                 🍓  LIVE — deploy this folder to the Pi 5
+├── onboard/                 🍓  LIVE  (deploy this folder to the Pi 5)
 │   ├── mission.py              flight entry point (+ component demos)
 │   ├── fsm.py                  mission state machine S0–S8 + SX (Table 19)
 │   ├── vision.py               QR · banner · red-zone · centering pipelines
